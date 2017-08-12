@@ -81,18 +81,18 @@ body {
 
 .cien_white, h1, h2,h3, p{
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.3);
     margin:1%;
     font-family:Arial,sans serif,Impact;
 }
 .cien_blue{
     border-radius: 10px;
-    background-color: rgba(127, 175, 255, 0.1);
+    background-color: rgba(127, 175, 255, 0.3);
     margin:1%;
 }
 .cien_green{
     border-radius: 10px;
-    background-color: rgba(45, 238, 89, 0.1);
+    background-color: rgba(15, 215, 60, 0.3);
     margin:1%;
 }
 
@@ -145,13 +145,52 @@ h3{
 
 }
 .top{
-    margin-right:5%;
+    margin: 0%;
     margin-bottom:6%;
     top:0%;
-    right:0%;
-    height:10%;
-    width:90%;
+
+    height:15%;
+    width:100%;
     position:fixed;
     text-align:left;
 }
 
+#logowanie{
+    right:0%;
+    width:15%;
+    position:fixed;
+    float: right;
+    /*width:300px;*/
+    border-radius: 10px;
+    background-color: rgba(217, 221, 222, 0.50);
+    color: #64656B;
+    margin:1%;
+    align-content: right;
+    top:0%;
+    right:15%;
+}
+
+form{
+    top: 0px;
+    right:0px;
+    float: right;
+    /*width:300px;*/
+    border-radius: 10px;
+    background-color: rgba(217, 221, 222, 0.50);
+    color: #64656B;
+    position: fixed;
+    margin:0px;
+    align-content: right;
+    color: rgba(223, 202, 0, 0.87);
+    font-size:13pt;
+}
+
+input{
+    background-color: rgba(11, 124, 152, 0.40);
+    border: 4px;
+    border-radius: 5px;
+    margin:1px;
+    color: rgba(223, 202, 0, 0.87);
+    font-size:13pt;
+
+}

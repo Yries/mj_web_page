@@ -30,7 +30,19 @@ object header extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Htm
       {
 
 
-Seq[Any](format.raw/*1.1*/("""<header class="top cien_white">"""),_display_(/*1.33*/mainlink()),format.raw/*1.43*/("""<img class="logo" src="""),_display_(/*1.66*/routes/*1.72*/.Assets.versioned("images/logo.gif")),format.raw/*1.108*/("""></img></a></header>"""))
+Seq[Any](format.raw/*1.1*/("""<header class="top cien_white">"""),_display_(/*1.33*/mainlink()),format.raw/*1.43*/("""
+    """),format.raw/*2.5*/("""<img class="logo" src="""),_display_(/*2.28*/routes/*2.34*/.Assets.versioned("images/logo.gif")),format.raw/*2.70*/(""">
+</img>
+</a>
+
+<div id="logowanie">
+<form method="get">
+        First name: <input type="text" name="fname"><br>
+        Last name: <input type="text" name="lname"><br>
+        <input type="submit" value="Register">                   <input type="submit" value="Submit"></form>
+</div>
+
+</header>"""))
       }
     }
   }
@@ -46,11 +58,11 @@ Seq[Any](format.raw/*1.1*/("""<header class="top cien_white">"""),_display_(/*1.
 
               /*
                   -- GENERATED --
-                  DATE: Sat Aug 12 22:35:44 CEST 2017
+                  DATE: Sun Aug 13 00:05:11 CEST 2017
                   SOURCE: /home/yries/Java_Projects/mj_web_page/app/views/header.scala.html
-                  HASH: 4bdd1258047074bf37588eecf11ba87e7afb5aaf
-                  MATRIX: 1031->0|1089->32|1119->42|1168->65|1182->71|1239->107
-                  LINES: 33->1|33->1|33->1|33->1|33->1|33->1
+                  HASH: ef347976e917dbedef847592ac173baae4b2eecc
+                  MATRIX: 1031->0|1089->32|1119->42|1150->47|1199->70|1213->76|1269->112
+                  LINES: 33->1|33->1|33->1|34->2|34->2|34->2|34->2
                   -- GENERATED --
               */
           

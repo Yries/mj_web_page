@@ -1,0 +1,14 @@
+
+*.log
+
+target/scala-2\.12/classes/views/html/header\$\.class
+
+target/streams/\$global/dependencyPositions/\$global/streams/update_cache_2\.12/output_dsp
+
+target/streams/\$global/\$global/\$global/streams/sync-exported-assets-web-assets
+
+target/streams/web-assets/assets/\$global/streams/sync-assets-web-assets
+
+target/streams/compile/compileIncremental/\$global/streams/export
+
+target/streams/compile/incCompileSetup/\$global/streams/inc_compile_2\.12
