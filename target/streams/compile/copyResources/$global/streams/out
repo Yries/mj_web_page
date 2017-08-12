@@ -1,0 +1,4 @@
+[debug] Copy resource mappings: 
+[debug] 	(/home/yries/Java_Projects/mj_web_page/conf/application.conf,/home/yries/Java_Projects/mj_web_page/target/scala-2.12/classes/application.conf)
+[debug] 	(/home/yries/Java_Projects/mj_web_page/conf/routes,/home/yries/Java_Projects/mj_web_page/target/scala-2.12/classes/routes)
+[debug] 	(/home/yries/Java_Projects/mj_web_page/conf/logback.xml,/home/yries/Java_Projects/mj_web_page/target/scala-2.12/classes/logback.xml)
