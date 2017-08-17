@@ -18,4 +18,12 @@ public class HomeController extends Controller {
         return ok(views.html.index.render());
     }
 
+    public Result registration() {
+        return ok(views.html.registration.render(null));
+    }
+
+    public Result news() {
+        return ok(views.html.news.render(null));
+    }
+
 }

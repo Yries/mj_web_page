@@ -157,31 +157,14 @@ h3{
 
 #logowanie{
     right:0%;
-    width:15%;
     position:fixed;
     float: right;
-    /*width:300px;*/
     border-radius: 10px;
     background-color: rgba(217, 221, 222, 0.50);
     color: #64656B;
-    margin:1%;
+    margin:0%;
     align-content: right;
     top:0%;
-    right:15%;
-}
-
-form{
-    top: 0px;
-    right:0px;
-    float: right;
-    /*width:300px;*/
-    border-radius: 10px;
-    background-color: rgba(217, 221, 222, 0.50);
-    color: #64656B;
-    position: fixed;
-    margin:0px;
-    align-content: right;
-    color: rgba(223, 202, 0, 0.87);
     font-size:13pt;
 }
 
@@ -192,5 +175,4 @@ input{
     margin:1px;
     color: rgba(223, 202, 0, 0.87);
     font-size:13pt;
-
 }
